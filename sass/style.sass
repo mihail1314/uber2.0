@@ -1,0 +1,405 @@
+$main-color: #1eacc7
+$second-color: #ff5656
+=btn_hover
+  &:hover
+    background-image: none
+    background-color: $main-color
+
+*
+  font-family: "Roboto", sans-serif
+
+a
+  text-decoration: none
+  color: #fff
+.link1
+  color: #000000
+.link2
+  color: #6d6d7d
+.link_rus
+  color: $main-color
+
+button
+  border: none
+  outline: none
+
+header
+  position: relative
+
+nav
+  height: 50px
+  background-color: #212121
+
+.menu
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 13px 70px
+  margin: 0
+  list-style: none
+
+.menu_link
+  color: #fff
+  font-size: 15px
+  font-weight: 300px
+
+.menu_item
+  border-right: 2px dotted black
+  padding-right: 28px
+
+.subheader
+  height: 70px
+  width: 100%
+  background-color: rgba(0, 0, 0, 0.6)
+  position: absolute
+
+.logo_img
+  width: 40%
+
+.logo_link
+  max-width: 100%
+
+.subheader
+  .subheader_offical
+    font-size: 13px
+    line-height: 22px
+    color: #ffffff57
+
+.subheader_call
+  font-size: 13px
+  color: #fff
+  margin-bottom: 10px
+  position: absolute
+  top: 20px
+
+.subheader_phone
+  display: block
+  font-size: 20px
+  margin-top: 45px
+
+.subheader_call_phone
+  margin-top: 15px
+
+.subheader_btn
+  padding: 8px 5px
+  width: 180px
+  height: 50px
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+  color: #fff
+  margin-top: 18px
+  border-radius: 5px
+  text-transform: uppercase
+  font-size: 15px
+  +btn_hover
+  
+
+.promo  
+  padding: 50px 0 135px 0
+  background: url(..//img/uber.png) center (center / cover) no-repeat
+
+.promo_header
+  text-align: center
+  text-transform: uppercase
+  font-size: 60px
+  font-weight: bold
+  color: #fff
+  margin-top: 25px
+
+.promo_subheader
+  text-align: center
+  color: #fff
+  font-weight: bold
+  font-size: 33px
+
+.promo_descr
+  text-align: center
+  color: #fff
+  min-height: 200px
+  font-size: 17px
+  margin-top: 15px
+
+.promo_btn
+  display: block
+  padding: 8px 5px
+  width: 220px
+  height: 60px
+  background-image: linear-gradient(to top,#1eacc7 0%, #4ce2ff 100%);
+  color: #fff
+  font-size: 17px
+  border-radius: 5px
+  text-transform: uppercase
+  margin: 0 auto
+  +btn_hover
+  // &:hover
+  //   background-image: none
+  //   background-color: rgb(9, 114, 156)
+  //   transition: 0.9s
+
+.stage
+  min-height: 500px
+  padding: 75px 0 65px 0
+
+.stage_senior
+  /* text-align: center;
+   *background-color: black;
+   *color: #fff;
+   *width: 12%;
+   *padding: 3px;
+   *position: relative;
+   *left: 42%;
+  margin: 0 auto
+  height: 24px
+  width: 112px
+  padding: 5px 12px
+  background-color: #000000
+  color: #fff
+  font-size: 11px
+  font-weight: 300px
+  text-transform: uppercase
+
+.stage_mean_senior
+  text-align: center
+  margin-top: 17px
+  text-transform: uppercase
+  font-size: 35px
+  font-weight: bold
+.subtitle
+  color: #222222
+  font-size: 17px
+  font-weight: 300
+  line-height: 21px
+  text-align: center
+  margin-top: 15px
+.gg
+  display: flex
+  align-items: center
+
+.stage_img
+  display: block
+  width: 15%
+  transform: translateY(20px)
+
+.stage .stage_title
+  margin-top: 0px
+  margin-left: 15px
+  font-size: 20px
+  color: #0b9466
+
+.stage_text
+  width: 80%
+  margin-left: 17.5%
+  line-height: 20px
+.mobile
+  padding: 48px 0 79px 0
+  min-height: 850px
+  background: url('..//img/mobile.png') center (center/cover) no-repeat
+  .row 
+      margin-top: 32px
+  &_item
+    position: relative
+    width: 320px
+    height: 280px
+    margin: 0 auto
+    margin-bottom: 19px
+    padding-top: 92px
+    &_1
+      background: url('..//img/mob.png') center (center/cover) no-repeat
+    &_2
+       background: url('..//img/mob.png') center (center/cover) no-repeat
+    &_3
+       background: url('..//img/mob.png') center (center/cover) no-repeat
+    &_4
+      background: url('..//img/pic4.png') center (center/cover) no-repeat
+    &_5
+      background: url('..//img/pic4.png') center (center/cover) no-repeat
+    &_6
+      background: url('..//img/pic4.png') center (center/cover) no-repeat
+    &_subtitle
+      color: #fff
+      text-align: center
+      font-size: 24px
+      text-transform: uppercase
+      line-height: 31px
+    &_plus
+      display: flex
+      justify-content: center
+      align-items: center
+      position: absolute
+      bottom: 35px
+      left: 50%
+      transform: translateX(-50%)
+      width: 30px
+      height: 30px
+      // background: url('..//img/plus.png')  center (center/cover) no-repeat
+      margin: 0 auto
+      background-color: #000000
+      border-radius: 100%
+      padding: 6px
+      cursor: pointer
+      &:before
+        content: ""
+        display: block
+        width: 120px
+        height: 2px
+        background-color: $main-color
+        transition: 0.3s
+      &:after
+        content: ""
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        display: block
+        width: 2px
+        height: 14px
+        background-color: $main-color
+        transition: 0.3s
+      &:hover
+          &:before, &:after
+            background-color: $second-color
+
+.choose
+  padding: 80px 0 50px 0
+  min-height: 600px
+  background: url('..//img/choose.png') center (center/cover) no-repeat
+  .light
+    background-color: #fff
+    color: #000000
+    text-align: center
+  .mean_light 
+    color: #fff
+  &_text1
+    text-align: center
+    color: #fff
+    margin-bottom: 30%
+  &_text2
+    text-align: center
+    color: #fff
+    margin-bottom: 10px
+    font-size: 18px
+  &_text3
+    text-align: center
+    color: #fff
+    font-size: 18px
+.require
+  padding: 68px 0 84px 0
+  &_title
+    color: $main-color
+    font-size: 22px
+    margin-bottom: 11px
+  &_menu
+    list-style: none
+    &_text
+      position: relative
+      margin-bottom: 5px
+      font-size: 19px
+      width: 79%
+      &::before
+        content: ''
+        display: block
+        position: absolute
+        left: -32px
+        top: 2px
+        // transform: translateY(-50%)
+        width: 21px
+        height: 20px
+        background: url('..//img/mark.png') center (center/cover) no-repeat
+  &_descr
+    font-size: 17px
+    color: $main-color
+    width: 80%
+    margin-bottom: 40px
+  .warning
+    .require_title
+      color: $second-color
+    .require_menu
+      .require_menu_text
+        &::before
+          background: url('..//img/markred.png') center (center/cover) no-repeat
+    .nbm
+      margin-bottom: 0px
+
+.world
+  min-height: 500px
+  padding: 80px 0 50px 0
+  background: url('..//img/world.jpeg') center (center/cover) no-repeat
+  &_whites
+    background-color: #fff
+    color: #000000
+    text-align: center
+    font-size: 13px
+    width: 90px
+  &_white
+    color: #fff
+  &_text
+    font-size: 20px
+  &_link
+    display: block
+    text-align: center
+    font-size: 19px
+    color: $main-color
+  
+.footer
+  // min-height: 400px
+  // padding: 15px 0 60px 0
+  width: 100%
+  position: relative
+  .divider
+    width: 30%
+    height: 5px
+    background-color: $main-color
+    margin: 0 auto
+    display: flex
+    justify-content: center
+    list-style: none
+    margin-top: 10px
+  &_menu
+    list-style: none
+    display: flex
+    justify-content: center
+    &_item
+      text-transform: uppercase
+      font-size: 17px
+      margin: 22px
+      margin-bottom: -15px
+  &_menu2
+    display: flex
+    justify-content: center
+    list-style: none
+    margin-bottom: 65px
+.link_rus
+  position: absolute
+  left: 50%
+  transform: translateX(-50%)
+  text-align: center
+  font-size: 16px
+  text-transform: uppercase
+.wrap
+  display: flex
+  justify-content: space-between
+  
+  .h
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    .img1
+      // width: 1400px
+      &_link
+        display: inline
+      // position: relative
+      // left: 50px
+      // bottom: 50px
+      &_left
+        width: 6% 
+    .img2
+      &_link
+        display: inline
+        
+        
+        // position: relative
+        // left: 960px
+        // bottom: 90px
+      &_right
+        transform: translateX(470px)
+        width: 9%
+    // transform: translateX(1000px) 
+    
